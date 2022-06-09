@@ -1,0 +1,31 @@
+{
+  "name": "get-npm-info",
+  "version": "1.0.3",
+  "description": "> TODO: description",
+  "author": "江楠",
+  "homepage": "https://github.com/Dade-jj/low-code#readme",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dade-jj/low-code.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/Dade-jj/low-code/issues"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "semver": "^7.3.7",
+    "url-join": "^4.0.0"
+  }
+}
