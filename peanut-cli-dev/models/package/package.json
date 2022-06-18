@@ -1,5 +1,5 @@
 {
-  "name": "@peanut-cli-dev/utils",
+  "name": "@peanut-cli-dev/package",
   "version": "1.0.3",
   "description": "> TODO: description",
   "author": "江楠",
@@ -10,9 +10,20 @@
     "lib": "lib",
     "test": "__tests__"
   },
+  "dependencies": {
+    "@peanut-cli-dev/format-path": "file:../../utils/format-path",
+    "@peanut-cli-dev/get-npm-info": "file:../../utils/get-npm-info",
+    "@peanut-cli-dev/utils": "file:../../utils/utils",
+    "npminstall": "^6.3.0",
+    "path-exists": "^4.0.0",
+    "pkg-dir": "^5.0.0"
+  },
   "files": [
     "lib"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Dade-jj/low-code.git"
@@ -22,6 +33,5 @@
   },
   "bugs": {
     "url": "https://github.com/Dade-jj/low-code/issues"
-  },
-  "gitHead": "f2b978bda68c0fabd102f7f4a5e2e66d99476ac3"
+  }
 }

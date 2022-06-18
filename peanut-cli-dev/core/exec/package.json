@@ -1,11 +1,15 @@
 {
-  "name": "@peanut-cli-dev/utils",
+  "name": "@peanut-cli-dev/exec",
   "version": "1.0.3",
   "description": "> TODO: description",
   "author": "江楠",
   "homepage": "https://github.com/Dade-jj/low-code#readme",
   "license": "ISC",
   "main": "lib/index.js",
+  "dependencies": {
+    "@peanut-cli-dev/package": "file:../../models/package",
+    "@peanut-cli-dev/log": "file:../../utils/log"
+  },
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -13,6 +17,9 @@
   "files": [
     "lib"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Dade-jj/low-code.git"
@@ -22,6 +29,5 @@
   },
   "bugs": {
     "url": "https://github.com/Dade-jj/low-code/issues"
-  },
-  "gitHead": "f2b978bda68c0fabd102f7f4a5e2e66d99476ac3"
+  }
 }

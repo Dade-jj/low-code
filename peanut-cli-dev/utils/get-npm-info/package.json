@@ -1,5 +1,5 @@
 {
-  "name": "get-npm-info",
+  "name": "@peanut-cli-dev/get-npm-info",
   "version": "1.0.3",
   "description": "> TODO: description",
   "author": "江楠",
@@ -27,5 +27,6 @@
     "axios": "^0.27.2",
     "semver": "^7.3.7",
     "url-join": "^4.0.0"
-  }
+  },
+  "gitHead": "f2b978bda68c0fabd102f7f4a5e2e66d99476ac3"
 }
