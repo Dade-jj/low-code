@@ -13,8 +13,15 @@
   "dependencies": {
     "@peanut-cli-dev/command": "file:../../models/command",
     "@peanut-cli-dev/log": "file:../../utils/log",
+    "@peanut-cli-dev/package": "file:../../models/package",
+    "@peanut-cli-dev/request": "file:../../utils/request",
+    "@peanut-cli-dev/utils": "file:../../utils/utils",
+    "ejs": "^3.1.8",
+    "glob": "^8.0.3",
     "inquirer": "^8.2.4",
-    "semver": "^7.3.7"
+    "kebab-case": "^1.0.1",
+    "semver": "^7.3.7",
+    "user-home": "^3.0.0"
   },
   "files": [
     "lib"
